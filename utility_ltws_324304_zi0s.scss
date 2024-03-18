@@ -1,0 +1,11 @@
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+banana
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const removeDuplicates = array => Array.from(new Set(array));
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const findLargestNumber = numbers => Math.max(...numbers);
+grape
+
+const randomNumber = getRandomNumber();
+const greet = name => `Hello, ${name}!`;
