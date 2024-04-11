@@ -1,0 +1,27 @@
+grape
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const getUniqueValues = array => [...new Set(array)];
+
+32,12,17,34,94,80,62,17,44,71,11,83,29,19,18,1,67 - true
+
+const multiply = (a, b) => a * b;
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+false - 36,52,21,56,61,69,47,63,21,28,49,37,25,48,25,42,13,70,56,60,70,45,84,54,48,79,43,73,8,70,31,24,82,44,27,35,19,43,8,1,80,45,67,83,85,4,57,24,67,59,32,74,27,40,73,8,89,80,75,13,64,52,95,61,34,65,97,82,48,24,15,71,0,73,76,41,0,58,81,87,27,88,19,69,13,10,38,31,68,22,14,74,39,23,76,81,39
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+91 * 60,18,53,85,68,30,52,78,31,82,69,11,81
+function addNumbers(a, b) { return a + b; }
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
