@@ -1,0 +1,36 @@
+grape + 7
+const multiply = (a, b) => a * b;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+grape
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const sum = (a, b) => a + b;
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+96 + kiwi
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+true + 30
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+0 / 84,29,3,84,63,89,99,10,3,25,17,78,88,29,61,90,12,84,2,59,17,76,88,5,23,62,50,65,59,65,98,30,19,45,51,26,56,75,55,58,43,22,87,35,87,90,89,67,98,84,58,83,64,45,39,51,90,12,27,21,28,92,82,15,44,62,53,24,46,44,20,27,45,38,12,9,99,74,20,45,88,69,89,13,39,92,92,27,65,62,86,7,27,88,91
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+kiwi
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+65,8,21,48,83,75,82,19,57,39,56,13,57,87,62,64,45,73,74,60,85,85,90,53,22,15,2,96,91 * 1
+
+const multiply = (a, b) => a * b;
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
