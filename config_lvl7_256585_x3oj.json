@@ -1,0 +1,21 @@
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+function addNumbers(a, b) { return a + b; }
+const reverseString = str => str.split("").reverse().join("");
+apple * false
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+44,4,92,56,7,1,58,38,51,29,14,33,50,67,49,29,94,78,9,17,20,57,26,10,23,67,56,76,51,60,61,87,74,89,30,86,68,70,73,9,56,41,3,92,57,5,82,17,5,83,11,95,11,1,56,58,78,25,55,38,1,69,26,24,50,27,69,39,16,66,12,52,55,25,79,90,28,86,8,74,5,25,8,14,22,77,80,72,21,15,90,22,14,16,11 * 43,70,92,2,70,8,4,59,85,70,71,12,87,48,20,5,17,95,0,60,66,21,57,84,18,92,83,49,18,61,57,70,29,75,66,48,97,96,90,1,85,66,75,60,69,17,38,10,68,56,39,60,27,9,57,51,48,9,27,7,22,46,89,25,71,6,39,60,14,76,85,50,75,33,98,88,32,88,24,63,67,19,29,16,89,85
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+kiwi
+
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const sum = (a, b) => a + b;
+const isPalindrome = str => str === str.split("").reverse().join("");
+76 - true
+const sum = (a, b) => a + b;
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
